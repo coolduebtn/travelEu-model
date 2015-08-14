@@ -1,0 +1,10 @@
+com/travel/repo/CountryRepositoryIntegrationTest.class
+com/travel/mapper/DtoMapperTest.class
+com/travel/builder/AttractionTestBuilder.class
+com/travel/builder/AbstractTestBuilder.class
+com/travel/repo/AttractionRepositoryIntegrationTest.class
+com/travel/builder/CountryTestBuilder.class
+com/travel/builder/CityTestBuilder.class
+com/travel/ReflectionTestUtils.class
+com/travel/repo/AbstractRepositoryIntegrationTest.class
+com/travel/repo/CityRepositoryIntegrationTest.class

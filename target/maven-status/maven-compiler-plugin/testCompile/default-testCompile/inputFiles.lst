@@ -1,0 +1,10 @@
+/home/chandan/workspaces/travelEuProject/travelEurope-model/src/test/java/com/travel/builder/CountryTestBuilder.java
+/home/chandan/workspaces/travelEuProject/travelEurope-model/src/test/java/com/travel/mapper/DtoMapperTest.java
+/home/chandan/workspaces/travelEuProject/travelEurope-model/src/test/java/com/travel/repo/AbstractRepositoryIntegrationTest.java
+/home/chandan/workspaces/travelEuProject/travelEurope-model/src/test/java/com/travel/builder/AbstractTestBuilder.java
+/home/chandan/workspaces/travelEuProject/travelEurope-model/src/test/java/com/travel/repo/CountryRepositoryIntegrationTest.java
+/home/chandan/workspaces/travelEuProject/travelEurope-model/src/test/java/com/travel/builder/AttractionTestBuilder.java
+/home/chandan/workspaces/travelEuProject/travelEurope-model/src/test/java/com/travel/builder/CityTestBuilder.java
+/home/chandan/workspaces/travelEuProject/travelEurope-model/src/test/java/com/travel/ReflectionTestUtils.java
+/home/chandan/workspaces/travelEuProject/travelEurope-model/src/test/java/com/travel/repo/AttractionRepositoryIntegrationTest.java
+/home/chandan/workspaces/travelEuProject/travelEurope-model/src/test/java/com/travel/repo/CityRepositoryIntegrationTest.java
