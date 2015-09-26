@@ -1,11 +1,18 @@
 package com.travel.mapper;
 
+import java.util.Collection;
+
 import org.springframework.stereotype.Component;
 
+import com.google.common.base.Function;
+import com.google.common.collect.Collections2;
+import com.google.common.collect.Sets;
 import com.travel.model.Attraction;
+import com.travel.model.Category;
 import com.travel.model.City;
 import com.travel.model.Country;
 import com.travel.model.dto.AttractionDto;
+import com.travel.model.dto.CategoryDto;
 import com.travel.model.dto.CityDto;
 import com.travel.model.dto.CountryDto;
 
@@ -44,8 +51,8 @@ public class ModelMapper {
 		attraction.setTips(attractionDto.getTips());
 		attraction.setTravelInstructions(attractionDto.getTravelInstructions());
 		attraction.setWebsite(attractionDto.getWebsite());
+		
+		
 		return attraction;
 	}
-
-
 }

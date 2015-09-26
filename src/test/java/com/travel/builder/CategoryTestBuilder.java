@@ -4,7 +4,7 @@ import com.travel.model.Category;
 
 public class CategoryTestBuilder extends AbstractTestBuilder<Category> {
 	
-	private String name;
+	private String name="monument";
 	
 	public static CategoryTestBuilder aCategory(){
 		return new CategoryTestBuilder();
@@ -17,8 +17,7 @@ public class CategoryTestBuilder extends AbstractTestBuilder<Category> {
 
 	@Override
 	public Category build() {
-		Category category=new Category();
-		category.setName(name);
+		Category category=new Category(name);
 		return category;
 	}
 

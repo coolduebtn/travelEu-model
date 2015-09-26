@@ -6,7 +6,6 @@ import java.util.List;
 import org.hibernate.Criteria;
 import org.hibernate.criterion.Restrictions;
 
-import com.travel.model.Attraction;
 import com.travel.model.BaseEntity;
 
 

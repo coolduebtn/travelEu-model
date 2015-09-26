@@ -24,6 +24,14 @@ public class Category implements BaseEntity{
 	
     @ManyToMany(mappedBy="categories")
     private Set<Attraction> attractions = Sets.newHashSet();
+    
+    public Category() {
+		// TODO Auto-generated constructor stub
+	}
+    
+    public Category(String name) {
+		setName(name);
+	}
 
 	@Override
 	public Long getId() {

@@ -5,9 +5,11 @@ import org.dozer.Mapper;
 import org.springframework.stereotype.Component;
 
 import com.travel.model.Attraction;
+import com.travel.model.Category;
 import com.travel.model.City;
 import com.travel.model.Country;
 import com.travel.model.dto.AttractionDto;
+import com.travel.model.dto.CategoryDto;
 import com.travel.model.dto.CityDto;
 import com.travel.model.dto.CountryDto;
 
@@ -26,6 +28,10 @@ public class DtoMapper {
 	
 	public CountryDto toCountryDto(Country country){
 		return mapper.map(country, CountryDto.class);
+	}
+	
+	public CategoryDto toCategoryDto(Category category){
+		return mapper.map(category, CategoryDto.class);
 	}
 
 }

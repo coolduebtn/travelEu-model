@@ -1,5 +1,9 @@
 package com.travel.model.dto;
 
+import java.util.Set;
+
+import com.google.common.collect.Sets;
+
 public class AttractionDto extends AbstractDto{
 	
 	private String address;
@@ -17,6 +21,8 @@ public class AttractionDto extends AbstractDto{
 	private Long siteRating;
 	
 	private String tips;
+	
+	private Set<CategoryDto> categories=Sets.newHashSet();
 
 	public String getAddress() {
 		return address;
@@ -81,7 +87,13 @@ public class AttractionDto extends AbstractDto{
 	public void setTips(String tips) {
 		this.tips = tips;
 	}
-	
-	
 
+	public Set<CategoryDto> getCategories() {
+		return categories;
+	}
+
+	public void setCategories(Set<CategoryDto> categories) {
+		this.categories = categories;
+	}
+	
 }

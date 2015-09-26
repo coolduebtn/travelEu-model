@@ -8,7 +8,6 @@ import com.travel.mapper.DtoMapper;
 import com.travel.mapper.ModelMapper;
 import com.travel.model.Attraction;
 import com.travel.model.City;
-import com.travel.model.Country;
 import com.travel.model.dto.AttractionDto;
 import com.travel.model.dto.CityDto;
 import com.travel.repo.AttractionRepository;

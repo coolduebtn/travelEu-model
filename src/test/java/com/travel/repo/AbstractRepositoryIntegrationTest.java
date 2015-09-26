@@ -11,6 +11,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.transaction.TransactionConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.travel.model.Category;
 import com.travel.model.City;
 import com.travel.model.Country;
 import com.travel.model.Attraction;
@@ -26,7 +27,8 @@ public abstract class AbstractRepositoryIntegrationTest {
 
 	@Before
 	public void before() {
-
+		
+		deleteTable(Category.class);
 		deleteTable(Attraction.class);
 		deleteTable(City.class);
 		deleteTable(Country.class);

@@ -1,9 +1,7 @@
 package com.travel.builder;
 
-import com.travel.model.Attraction;
 import com.travel.model.City;
 import com.travel.model.Country;
-import com.travel.utils.Utils;
 
 public class CityTestBuilder extends AbstractTestBuilder<City> {
 
